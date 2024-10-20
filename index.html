@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <div class="container">
+        <h1 class="brand">YiWei cleaning product company </h1>
+        <div class="company-introduction">
+            <h2>Здравствыйте</h2>
+            <h3>Мы являемся китайским заводом, специализирующимся на производстве чистых продуктов (в основном, запчастей для паровых швабр). Если вам интересно, пожалуйста, напишите мне по электронной почте в любое время.
+               
+                 
+            </h5>
+          
+            <p>Email: 281394305@qq.com</p>
+        <p>Phone or Wechat: +86 15150392091</p>
+
+        </div>
+        
+
+       
+
+        <h1 class="ptlist">Product List <button  onclick="scrollToContact() " class="button-blue">Contact Us</button></h1>
+        <div id="productList" class="product-list">
+            <!-- Product items will be dynamically added here -->
+        </div>
+    </div>
+
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalProduct"></div>
+        </div>
+    </div>
+
+    <div class="contact-container">
+        <h2 id="contact-us">Contact Us</h2>
+        <p>Если у вас есть вопросы или вопросы, пожалуйста, свяжитесь с нами в любое время следующим образом:</p>
+        <p>Email: 281394305@qq.com</p>
+        <p>Phone: +86 15150392091</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
